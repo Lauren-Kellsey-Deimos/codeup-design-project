@@ -1,5 +1,6 @@
 body{
     font-family: 'Anton', sans-serif;
+    background-color: #F0F0F0;
 }
 h1{
     font-size: 64px;
@@ -7,12 +8,16 @@ h1{
 h2{
     font-size: 40px;
 }
+h3 {
+    color: white;
+}
+
 .circle{
-    width: 105px;
-    height: 105px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
     border: solid white 10px;
 }
 .circleRed {
