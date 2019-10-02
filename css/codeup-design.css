@@ -9,7 +9,7 @@ h1{
 h2{
     font-size: 40px;
 }
-h3 {
+.circle h3{
     color: white;
 }
 p{
@@ -61,6 +61,9 @@ h5{
     padding-right: 0;
     padding-top: 1em;
 }
+/*.extra-small{*/
+    /*padding-bottom: 5em;*/
+/*}*/
 #apple, #man, #security, #macbook {
 
     border: solid red 10px;
