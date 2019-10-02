@@ -1,6 +1,7 @@
 body{
     font-family: 'Anton', sans-serif;
     background-color: #F0F0F0;
+
 }
 h1{
     font-size: 64px;
@@ -10,6 +11,9 @@ h2{
 }
 h3 {
     color: white;
+}
+p{
+    font-size: 28px;
 }
 
 .circle{
@@ -31,4 +35,25 @@ h3 {
 }
 .circleBlue {
     background-color: #00ABA9;
+}
+.mini-circle{
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    color: black;
+}
+
+.para{
+    font-family: 'Abel', sans-serif;
+
+}
+.parent-card{
+    align-self: center;
+}
+#apple{
+
+    border: solid red 10px;
+    border-radius: 5px;
 }
