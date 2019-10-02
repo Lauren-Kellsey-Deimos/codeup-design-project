@@ -15,6 +15,9 @@ h3 {
 p{
     font-size: 28px;
 }
+h5{
+    padding-top: 10px;
+}
 
 .circle{
     width: 200px;
@@ -43,6 +46,7 @@ p{
     -moz-border-radius: 18px;
     border-radius: 18px;
     color: black;
+    font-size: ;
 }
 
 .para{
@@ -52,7 +56,12 @@ p{
 .parent-card{
     align-self: center;
 }
-#apple{
+.card-footer{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1em;
+}
+#apple, #man, #security, #macbook {
 
     border: solid red 10px;
     border-radius: 5px;
