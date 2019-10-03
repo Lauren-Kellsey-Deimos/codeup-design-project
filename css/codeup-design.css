@@ -22,6 +22,9 @@ h5 {
     font-size: 12px;
     padding-top: 8px;
 }
+p {
+    margin: 0;
+}
 
 .circle{
     width: 105px;
@@ -74,8 +77,7 @@ h5 {
     /*padding-bottom: 5em;*/
 /*}*/
 #apple, #man, #security, #macbook {
-
-    border: solid red 10px;
+    border: solid #e6e6e6 10px;
     border-radius: 5px;
 }
 /*#man {*/
@@ -89,4 +91,10 @@ img{
 }
 .card-footer p{
     font-size: 10px;
+}
+div.card-footer {
+    background: none;
+}
+hr {
+    width: 80%;
 }
