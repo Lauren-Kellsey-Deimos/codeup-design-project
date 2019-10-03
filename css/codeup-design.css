@@ -73,17 +73,12 @@ p {
     padding-right: 0;
     padding-top: 1em;
 }
-/*.extra-small{*/
-    /*padding-bottom: 5em;*/
-/*}*/
+
 #apple, #man, #security, #macbook {
     border: solid #e6e6e6 10px;
     border-radius: 5px;
 }
-/*#man {*/
-    /*width: 100%;*/
-    /*height: auto;*/
-/*}*/
+
 img{
     display: flex;
     width: auto;
@@ -97,4 +92,35 @@ div.card-footer {
 }
 hr {
     width: 80%;
+}
+
+@media only screen and (min-width:768px) {
+    .circleRed, .circleOrange, .circleGreen, .circleBlue {
+        /*background-color: #E6563B;*/
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    hr {
+        width: 100%
+    }
+    .selected, .card-box{
+        float: left;
+    }
+    .hello {
+        float: right;
+    }
+    span {
+
+        /*margin-left: auto;*/
+    }
+
+}
+
+
+@media only screen and (min-width:992px) {
+
+
+
 }
