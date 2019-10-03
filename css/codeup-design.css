@@ -105,40 +105,48 @@ hr {
     hr {
         width: 100%
     }
-    .selected, .card-box{
+
+    .selected, .card-box {
         float: left;
     }
+
     .hello {
         float: right;
     }
-    .aside{
+
+    .aside {
         float: right;
         /*margin-left: auto;*/
     }
-    img{
+
+    img {
         display: flex;
         width: auto;
         height: 125px;
     }
+
     #apple, #man, #security, #macbook, .img-left {
         border: solid #e6e6e6 5px;
         border-radius: 2px;
     }
+
     .img-left {
         border: solid #e6e6e6 2px;
         border-radius: 1px;
     }
-    div.card-footer{
+
+    div.card-footer {
         padding: 0;
     }
+
     /*div.col{*/
-        /*padding: 0;*/
-        /*margin-left: 1em;*/
+    /*padding: 0;*/
+    /*margin-left: 1em;*/
     /*}*/
     /*div.col.d-flex.flex-row-reverse {*/
-        /*margin: 3;*/
+    /*margin: 3;*/
     /*}*/
-    .mini-circle{
+    .mini-circle {
         width: 18px;
         height: 18px;
         -webkit-border-radius: 9px;
@@ -148,6 +156,7 @@ hr {
         font-size: 10px;
         margin: 3px;
     }
+
     .img-left {
         height: 40px;
         width: 40px;
@@ -156,14 +165,35 @@ hr {
         margin-bottom: 15px;
 
     }
-    .aside{
+
+    .aside {
         margin-bottom: 15px;
     }
-    .aside.last{
+
+    .aside.last {
         margin-right: 1em;
     }
 
+    .img-left-no {
+        height: 25px;
+        width: 25px;
+        float: left;
+        /*padding-bottom: 10px;*/
+    }
+
+    .aside2 {
+        margin-top: 20px;
+    }
+    #Tweet {
+        display: flex;
+        padding: 0;
+    }
+    strong {
+        padding-top: 6px;
+    }
 }
+
+
 
 
 @media only screen and (min-width:992px) {
