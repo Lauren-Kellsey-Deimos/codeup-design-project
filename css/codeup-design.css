@@ -6,29 +6,34 @@ body{
 h1{
     font-size: 64px;
 }
-h2{
+h2 {
+    font-size: 48px;
+}
+h3{
     font-size: 40px;
 }
-.circle h3{
+h4 {
+    font-size: 32;
+}
+.circle h4{
     color: white;
 }
-p{
-    font-size: 28px;
-}
-h5{
-    padding-top: 10px;
+h5 {
+    font-size: 12px;
+    padding-top: 8px;
 }
 
 .circle{
-    width: 200px;
-    height: 200px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
-    border: solid white 10px;
+    width: 105px;
+    height: 105px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: solid white 5px;
 }
 .circleRed {
     background-color: #E6563B;
+
 }
 .circleOrange {
     background-color: #EB9D3A;
@@ -40,19 +45,23 @@ h5{
     background-color: #00ABA9;
 }
 .mini-circle{
-    width: 35px;
-    height: 35px;
-    -webkit-border-radius: 18px;
-    -moz-border-radius: 18px;
-    border-radius: 18px;
+    width: 18px;
+    height: 18px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
     color: black;
-    font-size: ;
+    font-size: 10px;
+
 }
 
-.para{
+.para {
     font-family: 'Abel', sans-serif;
+    font-size: 20px;
+
 
 }
+
 .parent-card{
     align-self: center;
 }
@@ -68,4 +77,8 @@ h5{
 
     border: solid red 10px;
     border-radius: 5px;
+}
+#apple {
+    width: 100%;
+    height: auto;
 }
