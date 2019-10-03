@@ -3,6 +3,10 @@ body{
     background-color: #F0F0F0;
 
 }
+#logo{
+    height: 105px;
+    width: 105px;
+}
 h1{
     font-size: 64px;
 }
@@ -24,6 +28,9 @@ h5 {
 }
 p {
     margin: 0;
+}
+.logo {
+    background-color: #F0F0F0;
 }
 
 .circle{
