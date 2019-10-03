@@ -191,16 +191,29 @@ hr {
     strong {
         padding-top: 6px;
     }
+    .last{
+        margin-left: 434px;
+        padding-top: 17px;
+    }
 }
 @media only screen and (min-width:992px) {
+    .last{
+        margin-left: 711px;
+        padding-top: 17px;
+    }
    .aside-top {
        /*display: inline-flex;*/
        /*margin-right:0;*/
    }
+    img{
+        display: flex;
+        width: auto;
+        height: 200px;
+    }
 
-    /*.aside {*/
-    /*    float: left;*/
-    /*}*/
+    .aside {
+        float: left;
+    }
 
 
 }
