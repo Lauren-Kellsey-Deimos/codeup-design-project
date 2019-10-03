@@ -78,7 +78,15 @@ h5 {
     border: solid red 10px;
     border-radius: 5px;
 }
-#apple {
-    width: 100%;
-    height: auto;
+/*#man {*/
+    /*width: 100%;*/
+    /*height: auto;*/
+/*}*/
+img{
+    display: flex;
+    width: auto;
+    height: 200px;
+}
+.card-footer p{
+    font-size: 10px;
 }
