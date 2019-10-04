@@ -4,8 +4,16 @@ body{
 
 }
 #logo{
-    height: 105px;
-    width: 105px;
+
+    margin: auto;
+}
+.white-bg {
+    background-color: white;
+    height: 6rem;
+    margin-top: -5rem;
+    position: relative;
+    top: 9rem;
+    z-index: -1;
 }
 h1{
     font-size: 64px;
@@ -15,9 +23,6 @@ h2 {
 }
 h3{
     font-size: 40px;
-}
-h4 {
-    font-size: 32;
 }
 .circle h4{
     color: white;
@@ -100,14 +105,79 @@ div.card-footer {
 hr {
     width: 80%;
 }
+@media only screen and (min-width:576px) {
 
+
+    .shift-right {
+        position: relative;
+        left: 2rem;
+    }
+
+    .shift-left {
+        position: relative;
+        left: -2rem;
+    }
+
+    img {
+        display: flex;
+        width: auto;
+        height: 128px;
+    }
+
+    .white-bg {
+        background-color: white;
+        height: 5em;
+        margin-top: -4rem;
+        position: relative;
+        top: 6.5rem;
+        z-index: -1;
+    }
+
+    .custom-navbar {
+        position: relative;
+        display: flex;
+        top: -10.5rem;
+    }
+
+    .title-header {
+        position: relative;
+        top: 3rem;
+    }
+
+}
 @media only screen and (min-width:768px) {
     .circleRed, .circleOrange, .circleGreen, .circleBlue {
-        /*background-color: #E6563B;*/
         margin-left: 10px;
         margin-right: 10px;
 
     }
+    .custom-navbar {
+        display: inline-flex;
+        position: relative;
+        left: 28rem;
+        top: -6.3rem;
+    }
+
+    .title-header {
+        position: absolute;
+        top: 3rem;
+        left: 11rem;
+    }
+
+    .shift-right {
+        position: inherit;
+        left: 0;
+    }
+
+    .shift-left {
+        position: inherit;
+        left: 0;
+    }
+
+    #logo {
+        margin-left: 2rem;
+    }
+
 
     hr {
         width: 100%
@@ -123,7 +193,6 @@ hr {
 
     .aside {
         float: right;
-        /*margin-left: auto;*/
     }
 
     img {
@@ -146,13 +215,6 @@ hr {
         padding: 0;
     }
 
-    /*div.col{*/
-    /*padding: 0;*/
-    /*margin-left: 1em;*/
-    /*}*/
-    /*div.col.d-flex.flex-row-reverse {*/
-    /*margin: 3;*/
-    /*}*/
     .mini-circle {
         width: 18px;
         height: 18px;
@@ -185,7 +247,6 @@ hr {
         height: 25px;
         width: 25px;
         float: left;
-        /*padding-bottom: 10px;*/
     }
 
     .aside2 {
@@ -203,15 +264,19 @@ hr {
         padding-top: 17px;
     }
 }
+@media only screen and (min-width:902px) {
+
+    .custom-navbar {
+        left: 37rem;
+    }
+
+}
 @media only screen and (min-width:992px) {
     .last{
         margin-left: 711px;
         padding-top: 17px;
     }
-   .aside-top {
-       /*display: inline-flex;*/
-       /*margin-right:0;*/
-   }
+
     img{
         display: flex;
         width: auto;
@@ -221,6 +286,16 @@ hr {
     .aside {
         float: left;
     }
+    #logo {
+        height: 125px;
+    }
+    .custom-navbar {
+        left: 43rem;
+    }
 
-
+}
+@media only screen and (min-width: 1290px){
+    .custom-navbar {
+        left: 61rem;
+    }
 }
