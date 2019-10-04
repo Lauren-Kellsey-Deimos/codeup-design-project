@@ -3,10 +3,12 @@ body{
     background-color: #F0F0F0;
 
 }
+
 #logo{
 
     margin: auto;
 }
+
 .white-bg {
     background-color: white;
     height: 6rem;
@@ -15,25 +17,32 @@ body{
     top: 9rem;
     z-index: -1;
 }
+
 h1{
     font-size: 64px;
 }
+
 h2 {
     font-size: 48px;
 }
+
 h3{
     font-size: 40px;
 }
+
 .circle h4{
     color: white;
 }
+
 h5 {
     font-size: 12px;
     padding-top: 8px;
 }
+
 p {
     margin: 0;
 }
+
 .logo {
     background-color: #F0F0F0;
 }
@@ -46,19 +55,23 @@ p {
     border-radius: 50px;
     border: solid white 5px;
 }
+
 .circleRed {
     background-color: #E6563B;
-
 }
+
 .circleOrange {
     background-color: #EB9D3A;
 }
+
 .circleGreen {
     background-color: #7CB06C;
 }
+
 .circleBlue {
     background-color: #00ABA9;
 }
+
 .mini-circle{
     width: 18px;
     height: 18px;
@@ -67,19 +80,17 @@ p {
     border-radius: 9px;
     color: black;
     font-size: 10px;
-
 }
 
 .para {
     font-family: 'Abel', sans-serif;
     font-size: 20px;
-
-
 }
 
 .parent-card{
     align-self: center;
 }
+
 .card-footer{
     padding-left: 0;
     padding-right: 0;
@@ -96,17 +107,20 @@ img{
     width: auto;
     height: 200px;
 }
+
 .card-footer p{
     font-size: 10px;
 }
+
 div.card-footer {
     background: none;
 }
+
 hr {
     width: 80%;
 }
-@media only screen and (min-width:576px) {
 
+@media only screen and (min-width:576px) {
 
     .shift-right {
         position: relative;
@@ -143,14 +157,15 @@ hr {
         position: relative;
         top: 3rem;
     }
-
 }
+
 @media only screen and (min-width:768px) {
+
     .circleRed, .circleOrange, .circleGreen, .circleBlue {
         margin-left: 10px;
         margin-right: 10px;
-
     }
+
     .custom-navbar {
         display: inline-flex;
         position: relative;
@@ -177,7 +192,6 @@ hr {
     #logo {
         margin-left: 2rem;
     }
-
 
     hr {
         width: 100%
@@ -232,7 +246,6 @@ hr {
         float: left;
         margin-right: 10px;
         margin-bottom: 15px;
-
     }
 
     .aside {
@@ -252,25 +265,29 @@ hr {
     .aside2 {
         margin-top: 20px;
     }
+
     #Tweet {
         display: flex;
         padding: 0;
     }
+
     strong {
         padding-top: 6px;
     }
+
     .last{
         margin-left: 434px;
         padding-top: 17px;
     }
 }
+
 @media only screen and (min-width:902px) {
 
     .custom-navbar {
         left: 37rem;
     }
-
 }
+
 @media only screen and (min-width:992px) {
     .last{
         margin-left: 711px;
@@ -286,14 +303,16 @@ hr {
     .aside {
         float: left;
     }
+
     #logo {
         height: 125px;
     }
+
     .custom-navbar {
         left: 43rem;
     }
-
 }
+
 @media only screen and (min-width: 1290px){
     .custom-navbar {
         left: 61rem;
